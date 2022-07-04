@@ -1,0 +1,23 @@
+{
+  "name": "api-gas",
+  "version": "1.0.0",
+  "description": "Api que ofrece las mejores alternativas de combustibles",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChicoNyel/api-gas.git"
+  },
+  "author": "Alan Moreno Pando",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChicoNyel/api-gas/issues"
+  },
+  "homepage": "https://github.com/ChicoNyel/api-gas#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.4.2"
+  }
+}
