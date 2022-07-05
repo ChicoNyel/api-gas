@@ -1,6 +1,6 @@
 const express = require('express');
 const Usuario = require('../models/usuario_model');
-const Joi = require('@hapi/joi');
+const Joi = require('joi')
 const ruta = express.Router();
 
 const schema = Joi.object({

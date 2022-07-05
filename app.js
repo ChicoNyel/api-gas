@@ -4,7 +4,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 
 //Conectarnos a la BD
-mongoose.connect('mongodb://localhost:27017/gasdb', {useNewUrlParser: true, useUnifiedTopology: true})
+mongoose.connect('mongodb://localhost:27017/gasDB', {useNewUrlParser: true, useUnifiedTopology: true})
     .then( () => console.log('Conectado a MongoDB...'))
     .catch( err => console.log('No se pudo conectar con MongoDB...', err));
 
@@ -15,5 +15,5 @@ app.use('/api/usuarios', usuarios);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
-    console.log('Api RESTFul Ok y ejecutandose...');
+    console.log('Api RESTFul Ok y ejecutandose en el puerto ', port);
 })
