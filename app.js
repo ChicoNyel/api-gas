@@ -1,7 +1,7 @@
-const usuarios = require('./routes/usuarios');
-
 const express = require('express');
 const mongoose = require('mongoose');
+
+const usuarios = require('./routes/usuarios');
 
 //Conectarnos a la BD
 mongoose.connect('mongodb://localhost:27017/gasDB', {useNewUrlParser: true, useUnifiedTopology: true})
